@@ -1,0 +1,38 @@
+[5.313s] Invoking command in '/home/ws/桌面/robot/src/lasersensor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/桌面/robot/build/lasersensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lasersensor_pkg build --build-base /home/ws/桌面/robot/build/lasersensor_pkg/build install --record /home/ws/桌面/robot/build/lasersensor_pkg/install.log --single-version-externally-managed install_data
+[6.252s] running egg_info
+[6.255s] creating ../../build/lasersensor_pkg/lasersensor_pkg.egg-info
+[6.323s] writing ../../build/lasersensor_pkg/lasersensor_pkg.egg-info/PKG-INFO
+[6.325s] writing dependency_links to ../../build/lasersensor_pkg/lasersensor_pkg.egg-info/dependency_links.txt
+[6.326s] writing requirements to ../../build/lasersensor_pkg/lasersensor_pkg.egg-info/requires.txt
+[6.327s] writing top-level names to ../../build/lasersensor_pkg/lasersensor_pkg.egg-info/top_level.txt
+[6.333s] writing manifest file '../../build/lasersensor_pkg/lasersensor_pkg.egg-info/SOURCES.txt'
+[6.542s] reading manifest file '../../build/lasersensor_pkg/lasersensor_pkg.egg-info/SOURCES.txt'
+[6.542s] writing manifest file '../../build/lasersensor_pkg/lasersensor_pkg.egg-info/SOURCES.txt'
+[6.546s] running build
+[6.546s] running build_py
+[6.548s] creating /home/ws/桌面/robot/build/lasersensor_pkg/build
+[6.549s] creating /home/ws/桌面/robot/build/lasersensor_pkg/build/lib
+[6.550s] creating /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg
+[6.552s] copying lasersensor_pkg/lasersensor_publisher_node.py -> /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg
+[6.556s] copying lasersensor_pkg/__init__.py -> /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg
+[6.559s] copying lasersensor_pkg/lasersensor_subscriber_node.py -> /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg
+[6.563s] running install
+[6.585s] running install_lib
+[6.669s] creating /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg
+[6.672s] copying /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg/lasersensor_publisher_node.py -> /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg
+[6.672s] copying /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg/__init__.py -> /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg
+[6.673s] copying /home/ws/桌面/robot/build/lasersensor_pkg/build/lib/lasersensor_pkg/lasersensor_subscriber_node.py -> /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg
+[6.679s] byte-compiling /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg/lasersensor_publisher_node.py to lasersensor_publisher_node.cpython-312.pyc
+[6.681s] byte-compiling /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg/__init__.py to __init__.cpython-312.pyc
+[6.685s] byte-compiling /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg/lasersensor_subscriber_node.py to lasersensor_subscriber_node.cpython-312.pyc
+[6.685s] running install_data
+[6.686s] creating /home/ws/桌面/robot/install/lasersensor_pkg/share/ament_index
+[6.695s] creating /home/ws/桌面/robot/install/lasersensor_pkg/share/ament_index/resource_index
+[6.695s] creating /home/ws/桌面/robot/install/lasersensor_pkg/share/ament_index/resource_index/packages
+[6.695s] copying resource/lasersensor_pkg -> /home/ws/桌面/robot/install/lasersensor_pkg/share/ament_index/resource_index/packages
+[6.695s] copying package.xml -> /home/ws/桌面/robot/install/lasersensor_pkg/share/lasersensor_pkg
+[6.696s] running install_egg_info
+[6.738s] Copying ../../build/lasersensor_pkg/lasersensor_pkg.egg-info to /home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages/lasersensor_pkg-0.0.0-py3.12.egg-info
+[6.743s] running install_scripts
+[7.240s] writing list of installed files to '/home/ws/桌面/robot/build/lasersensor_pkg/install.log'
+[7.323s] Invoked command in '/home/ws/桌面/robot/src/lasersensor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/桌面/robot/build/lasersensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/桌面/robot/install/lasersensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lasersensor_pkg build --build-base /home/ws/桌面/robot/build/lasersensor_pkg/build install --record /home/ws/桌面/robot/build/lasersensor_pkg/install.log --single-version-externally-managed install_data

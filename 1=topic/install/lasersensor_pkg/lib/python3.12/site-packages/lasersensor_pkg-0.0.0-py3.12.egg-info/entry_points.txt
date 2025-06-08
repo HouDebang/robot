@@ -1,0 +1,3 @@
+[console_scripts]
+listener = lasersensor_pkg.lasersensor_subscriber_node:main
+talker = lasersensor_pkg.lasersensor_publisher_node:main
