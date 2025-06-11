@@ -12,7 +12,7 @@ def main(args=None):#入口函数
     rclpy.init(args=args)
     # 创建节点实例
     node = MinimalNode()
-    try:其
+    try:
         #回调函数，进入循环，保持节点运行
         rclpy.spin(node)
     finally:
